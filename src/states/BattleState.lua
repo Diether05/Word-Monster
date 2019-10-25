@@ -319,7 +319,7 @@ function BattleState:update(dt)
         gSounds['batle']:stop()
         gSounds['sgg']:play()
         isviva = 2
-        Timer.tween(1, {
+        Timer.tween(10, {
             [self] = {transitionAlpha = 255}
         }):finish(function()
             gStateMachine:change('start')
@@ -330,7 +330,7 @@ function BattleState:update(dt)
         gSounds['batle']:stop()
         gSounds['sviva']:play()
         isviva = 1
-        Timer.tween(3, {
+        Timer.tween(10, {
             [self] = {transitionAlpha = 255}
         }):finish(function()
             gStateMachine:change('start')
