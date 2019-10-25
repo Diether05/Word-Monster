@@ -12,7 +12,7 @@ function BattleState:init()
     charactermp = 0
     cmana = 0
 
-    enemyhp = 20
+    enemyhp = 200
     ehp = 0
 
     chp = 0
