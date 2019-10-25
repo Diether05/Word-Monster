@@ -32,7 +32,7 @@ function love.load()
         ['start'] = function() return StartState() end,
         ['battle'] = function() return BattleState() end
     }
-    gStateMachine:change('battle')
+    gStateMachine:change('start')
 
 
     -- initialize input table
