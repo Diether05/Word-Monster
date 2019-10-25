@@ -3,8 +3,8 @@
 require 'src/Dependencies'
 
 -- physical screen dimensions
-WINDOW_WIDTH = 1280
-WINDOW_HEIGHT = 720
+WINDOW_WIDTH = 1366
+WINDOW_HEIGHT = 768
 
 -- virtual resolution dimensions
 VIRTUAL_WIDTH = 1366
