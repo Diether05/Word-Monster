@@ -83,7 +83,7 @@ end
 
 function StartState:render()
 
-    love.graphics.draw(gTextures['StartMenuBG'], 0, 40, 0, .28, .25)
+    love.graphics.draw(gTextures['StartMenuBG'], 0, 0)
 
     self:drawOptions(24)
 
